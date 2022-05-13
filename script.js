@@ -163,6 +163,8 @@ app.controller("myController", function ($scope) {
             $scope.tuoi = null;
             $scope.lop = null;
             $scope.hocSinhMacDinh.push(x);
+        }else{
+            window.alert("Ban chua nhap day du thong tin!");
         }
     };
 
@@ -215,6 +217,8 @@ app.controller("myController", function ($scope) {
             $scope.tabLop = false;
             $scope.tenLop = null;
             $scope.thuoc = null;
+        }else{
+            window.alert("Ban chua nhap day du thong tin!");
         }
     };
 
